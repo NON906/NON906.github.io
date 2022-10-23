@@ -18,17 +18,17 @@ VR配信や動画配信が出来るアバター配信アプリケーション、
 - Android
   - [Google play(オープンテスト版)](https://play.google.com/store/apps/details?id=online.mumeigames.XRViewer2)
 - Meta Quest2 単体
-  - [Download(.apk)](XRViewer_Quest_ver0.1.apk)
+  - [Download(.apk)](https://github.com/NON906/NON906.github.io/releases/download/xrviewer_ver0.1/XRViewer_Quest_ver0.1.apk)
   - SideQuest
   - [Booth](https://mmig.booth.pm/items/4254856)
 - Windows(Oculus)
-  - [Download](XRViewer_Oculus_ver0.1.zip)
+  - [Download](https://github.com/NON906/NON906.github.io/releases/download/xrviewer_ver0.1/XRViewer_Oculus_ver0.1.zip)
   - [Booth](https://mmig.booth.pm/items/4254856)
 - Windows(OpenXR)
-  - [Download](XRViewer_OpenXR_ver0.1.zip)
+  - [Download](https://github.com/NON906/NON906.github.io/releases/download/xrviewer_ver0.1/XRViewer_OpenXR_ver0.1.zip)
   - [Booth](https://mmig.booth.pm/items/4254856)
 
 配信用
 - Windows(Oculus)
-  - [Download](XRViewer_HostOculus_ver0.1.zip)
+  - [Download](https://github.com/NON906/NON906.github.io/releases/download/xrviewer_ver0.1/XRViewer_HostOculus_ver0.1.zip)
   - [Booth](https://mmig.booth.pm/items/4254818)
