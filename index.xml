@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>無名のどこか</title>
+    <link>https://example.com/</link>
+    <description>Recent content on 無名のどこか</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 16 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>XRViewer</title>
+      <link>https://example.com/xrviewer/</link>
+      <pubDate>Wed, 16 Nov 2022 14:22:17 +0900</pubDate>
+      
+      <guid>https://example.com/xrviewer/</guid>
+      <description>XRViewer VR配信や動画配信が出来るアバター配信アプリケーション、およびそのビュワーアプリケーションです。
+以下の機能が存在します。
+ VR空間で撮影し、それをRTMPでライブ配信（Youtube Liveなど） スマートフォンVR（Cardboardなど）やMeta Quest2で配信者のいるVR空間に入ることができる PCゲーム画面のウィンドウなど、配信者のデスクトップ画面をVR空間や動画で共有  ※現在テスト版です
+ダウンロード ※iOS/Android以外については、Meta Quest2でのみ動作確認
+視聴用
+ iOS  TestFlight   Android  Google play(オープンテスト版)   Meta Quest2 単体  Download(.apk) SideQuest Booth   Windows(Oculus)  Download SideQuest Booth   Windows(OpenXR)  Download Booth    配信用
+ Windows(Oculus)  Download Booth    </description>
+    </item>
+    
+  </channel>
+</rss>

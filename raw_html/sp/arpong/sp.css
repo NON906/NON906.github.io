@@ -1,0 +1,105 @@
+* {
+	margin : 0 ;
+	padding : 0 ;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+body { 
+	width : 100% ;
+	text-align: center;
+	background-color : #4BFF00 ;
+}
+
+#body {
+	margin: 0 auto;
+	width : 90% ;
+	position : relative ;
+	text-align : left ;
+	background-color : #FBFFAD ;
+	border-left : solid 5px #AE024A ;
+	border-right : solid 5px #AE024A ;
+	color : #000000 ;
+}
+
+#header {
+	width : 100% ;
+	height : 15px ;
+	border-bottom: double 10px #AE024A ;
+	margin-bottom: 5px ;
+	background-color : #FF004C ;
+}
+
+#footer {
+	width : 100% ;
+	height : 15px ;
+	clear : both ;
+	border-top: double 10px #AE024A ;
+	margin-top: 5px ;
+	background-color : #FF004C ;
+}
+
+.title {
+	font-size: 32px;
+	text-align: center;
+}
+
+.subTitle {
+	font-size: 20px;
+	margin: 5px;
+}
+
+.chapter {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	font-size: 18px;
+	border-bottom: solid 3px #FFB200 ;
+}
+
+.textBox {
+	float: left;
+	width: 90%;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.textBox li {
+	margin-left: 20px;
+}
+
+.textBox .selectable * {
+	font-size: 20px;
+}
+
+.textBox .selectable li {
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+.textBox p.selectable {
+	line-height: 44px;
+}
+
+.textBox .small {
+	font-size: 13px;
+}
+
+.textBox pre {
+	font-size: 14px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	overflow: auto;
+}
+
+.backLine {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 16px;
+	margin-bottom: 7px;
+	font-size: 18px;
+	border-bottom: solid 3px #FFB200 ;
+}

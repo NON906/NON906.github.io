@@ -1,0 +1,177 @@
+<pre>
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【タイトル】Shot&Sword
+【Version 】1.02a
+【著 作 者】ＮＯＮ９０６
+【連 絡 先】メール： satoharu_@hotmail.co.jp
+　　　　　　ＷＥＢ： http://mumei.rosx.net/
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+○動作環境
+ＯＳ：WindowsXP以上のＯＳ
+　　　DirectX9以降がインストールされていること
+　　　（WinXP<32bit>・Win7<32bit/64bit>・Win8<64bit>で動作確認済み）
+ＣＰＵ：Intel Celeron M (1.50GHz) 以上を推奨
+メインメモリ：空きメモリ128MB以上必須
+ＧＰＵ：VRAM32MB以上必須
+　　　　（ATI RADEON XPRESS 200M〈RADEON X300相当〉
+　　　　　およびIntel製チップセットで動作確認済み）
+その他：ゲームパッド
+　　　　※キーボードの場合、キーの組み合わせによっては同時押しができない場合があるので、
+　　　　　ゲームパッドの使用を推奨します。
+※WinXP以上のＰＣなら基本的に動くと思います。
+※この環境を満たしていても動作しない場合がございますのでご注意ください。
+
+
+○インストール方法
+　shotAndSword_ver1.02a.zipを解凍してください。
+
+
+○アンインストール方法
+　フォルダごと削除してください。
+　このゲームはレジストリを使用しておりません。
+
+
+○ファイル構成
+　shotAndSword.exe	：ゲーム本体です。
+　config.exe		：詳細設定用のプログラムです。
+　readme.txt		：このファイルです。
+　manual.html		：このゲームのマニュアルです。
+　data.dxa		：ゲームに使用する画像や音楽などのデータです。削除しないでください。
+　config.ini (*)	：config.exeやOptionメニューでの設定を保存したファイルです。
+　rank.dat (*)		：ゲームの進行状況やランキングデータなどを記録しているファイルです。
+			　ランキングなどをリセットする場合は、このファイルを削除してください。
+　(*)必要になったら、自動的に作成されます。
+
+
+○ゲーム説明
+　manual.htmlをご参照ください。
+
+
+○config.exeについて
+　config.exeでは以下の設定ができます。
+　　・スクリーン設定
+　　　画面表示をフルスクリーンにするか、ウィンドウにするかを設定します。
+　　　この設定はOptionでも変更ができますが、その場合は再起動してから有効になります。
+　　　- 起動時に毎回聞く（デフォルト）
+　　　　起動するたびにフルスクリーンで起動するかどうかを聞くウィンドウを表示します。
+　　　- フルスクリーン
+　　　　常にフルスクリーンで起動します。
+　　　- ウィンドウ
+　　　　常にウィンドウで起動します。
+　　・ＦＰＳ表示
+　　　画面左下にＦＰＳを表示するかどうかを設定します。
+　　　- 表示しない（デフォルト）
+　　　- 表示する
+　　・MIDI再生方式
+　　　MIDI（音楽）の再生方式を変更します。
+　　　- DirectMusicで再生(推奨)（デフォルト）
+　　　　DirectMusicを使用して再生します。
+　　　　どの環境でも同じ音色になります。
+　　　- MCIで再生(※音量変更不可)
+　　　　MIDIデバイスを使用して再生します。
+　　　　DirectMusicよりも処理は軽くなりますが、
+　　　　音量変更ができず、またループ時に0.5秒程度の処理の停止が起こります。
+　　・入力処理方式
+　　　入力にDirectInputを使用するかどうかを設定します
+　　　- デフォルト(推奨)（デフォルト）
+　　　　ＤＸライブラリのデフォルト設定です。
+　　　　XPではDirectInputを使用する、Vista以降では使用しないようになっています。
+　　　- DirectInputを使用しない
+　　　　使用しているOSに関わらず、DirectInputを使用しないようにします。
+　　　　（主にXPで）正しく動作しない場合はお試しください。
+　　　- DirectInputを使用する
+　　　　使用しているOSに関わらず、DirectInputを使用するようにします。
+　　　　（主にVista以降で）正しく動作しない場合はお試しください。
+
+
+○再配布等について
+プログラムの再配布などをする際は事前に連絡してください。
+
+
+○使用ツール・素材
+※著作権及び各素材配布サイトの利用規約に違反する場合がございますので、
+　このソフト内で使用されている画像・音楽データ等を、このゲームを遊ぶ以外の用途には使用しないで下さい。
+
+・このゲームはVisualStudio2010にＤＸライブラリを使用しました。
+　　ＤＸライブラリ
+　　山田 巧 様
+　　http://homepage2.nifty.com/natupaji/DxLib/
+　※以下、ＤＸライブラリの各機能に関する著作権表示です。
+　　PNG 画像を読みこむ機能を使用
+　　　libpng　Copyright (c) 1998-2004 Glenn Randers-Pehrson.
+　　　zlib　Copyright (C) 1995-2004 Jean-loup Gailly and Mark Adler.
+　　関数 GetRand を使用
+　　　Mersenne Twister
+　　　Copyright (C) 1997 - 2002, Makoto Matsumoto and Takuji Nishimura,
+　　　All rights reserved.
+
+　　　Redistribution and use in source and binary forms, with or without
+　　　modification, are permitted provided that the following conditions
+　　　are met:
+
+　　　1. Redistributions of source code must retain the above copyright
+　　　notice, this list of conditions and the following disclaimer.
+
+　　　2. Redistributions in binary form must reproduce the above copyright
+　　　notice, this list of conditions and the following disclaimer in the
+　　　documentation and/or other materials provided with the distribution.
+
+　　　3. The name of the author may not be used to endorse or promote products
+　　　derived from this software without specific prior written permission.
+
+　　　THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+　　　IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+　　　OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+　　　IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+　　　INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+　　　NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+　　　DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+　　　THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+　　　(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+　　　THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+・マップチップ画像は以下のサイトで配布されている物、及びそれを加工したものを使用しています。
+　　First Seed Material
+　　FSM STAFF 様
+　　http://www.tekepon.net/fsm/
+　※このソフトは、REFMAPが配布しているフリー画像素材を使用してます。
+　　このソフト内で使用されている画像を、このゲームを遊ぶ以外の用途には使用しないで下さい。
+
+　　すきまの素材
+　　ワト 様
+　　http://wato5576.sukimakaze.com/
+　※REFMAP様とＭＡＣＫ様(http://homepage3.nifty.com/looseleaf/)の配布されているフリー素材を加工したものです。
+　※このソフト内で使用されている画像を、このゲームを遊ぶ以外の用途には使用しないで下さい。
+
+・音楽は以下のサイトで配布されている素材を使用しています。
+　　煉獄庭園
+　　煉獄庭園 様（煉獄小僧 様）
+　　http://www.rengoku-teien.com/
+
+　　Midi planet
+　　yura 様
+　　http://midipla.nobody.jp/
+
+　　Senses Circuit
+　　hitoshi 様
+　　http://www.senses-circuit.com/
+　※使用曲：Jingle#2、Mechanical
+
+・効果音は以下のサイトで配布されている素材を使用しています。
+　　ザ・マッチメイカァズ
+　　OSA 様
+　　http://osabisi.sakura.ne.jp/m2/index.html
+　　
+　　
+○履歴
+　Ver.1.02a readme.txtを最新の情報に更新
+　　　　　　圧縮形式をzip形式に変更
+　Ver.1.02　一部の処理の内容を見直しました
+　　　　　　画面端に存在するものが表示されなくなるバグを修正
+　Ver.1.01　ファーストの特殊攻撃がまれに使えなくなるバグを修正
+　　　　　　config.exeに入力処理方式（DirectInputを使用するかどうか）の項目を追加
+　Ver.1.00　初期バージョン
+
+</pre>
+<P><A href="manual.html">戻る</A></P>
