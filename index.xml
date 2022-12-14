@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>無名のどこか</title>
-    <link>https://example.com/</link>
+    <link>https://non906.github.io/</link>
     <description>Recent content on 無名のどこか</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 16 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://non906.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>XRViewer</title>
-      <link>https://example.com/xrviewer/</link>
+      <link>https://non906.github.io/xrviewer/</link>
       <pubDate>Wed, 16 Nov 2022 14:22:17 +0900</pubDate>
       
-      <guid>https://example.com/xrviewer/</guid>
+      <guid>https://non906.github.io/xrviewer/</guid>
       <description>XRViewer VR配信や動画配信が出来るアバター配信アプリケーション、およびそのビュワーアプリケーションです。
 以下の機能が存在します。
  VR空間で撮影し、それをRTMPでライブ配信（Youtube Liveなど） スマートフォンVR（Cardboardなど）やMeta Quest2で配信者のいるVR空間に入ることができる PCゲーム画面のウィンドウなど、配信者のデスクトップ画面をVR空間や動画で共有  ※現在テスト版です
