@@ -10,17 +10,18 @@
      crossorigin="anonymous"></script>
 
   <meta name="generator" content="Hugo 0.145.0">
-  <link rel="canonical" href="/xrviewer/">
+  <link rel="canonical" href="/pr/">
 
   
     
-    <meta name="description" content="XRViewer VR配信や動画配信が出来るアバター配信アプリケーション、およびそのビュワーアプリケーションです。
-以下の機能が存在します。
-VR空間で撮影し、それをRTMPでライブ配信（Youtube Liveなど） スマートフォンVR（Cardboardなど）やMeta Quest2で配信者のいるVR空間に入ることができる PCゲーム画面のウィンドウなど、配信者のデスクトップ画面をVR空間や動画で共有 ※現在テスト版です
-ダウンロード ※iOS/Android以外については、Meta Quest2でのみ動作確認
-視聴用
-現在停止中 配信用
-Windows(Oculus) Download Booth ">
+    <meta name="description" content="omniparser-autogui-mcp（自動GUI操作） 概要 Microsoft OmniParserを活用してコンピュータ画面を解析し、GUIを自動で操作するためのModel Context Protocol (MCP) サーバーです。
+主な機能 OmniParserによる画面の自動解析と要素の構造化 AIシステムと連携したGUI自動操作 複数の設定オプションでカスタマイズ可能（対象ウィンドウ指定、サーバー設定など） 技術的特徴 Microsoft OmniParserとの連携による高度な画面認識能力 MCP標準に準拠した実装で様々なAIシステムとの連携が可能 GitHub リポジトリ
+chara-searcher（キャラクター画像検索ツール） 概要 画像やタグを使ってキャラクター画像の検索を行うための総合的なツールです。複数の画像や動画からキャラクターを自動で抽出し、背景を除去した上で検索可能なデータベースを構築します。
+主な機能 画像・動画からのキャラクター自動抽出（背景除去機能付き） 類似画像検索とタグベース検索の両方に対応 検索結果の一括エクスポート（Stable DiffusionのLora学習などに直接利用可能） 技術的特徴 タグベースと画像ベースの複合検索システム GitHub リポジトリ
+mascotgirl（キャラクター会話システム） 概要 好きなキャラクターと会話するためのプログラムです。キャラクターの立ち絵とボイスを組み合わせ、実際にそのキャラクターと会話しているような体験を提供します。
+主な機能 OpenAI APIを活用したキャラクターベースの会話生成 Style-Bert-VITS2による高品質な音声合成 talking-head-anime-3-demoによるリアルな口パク表現 Windows PCとAndroidデバイスに対応 技術的特徴 キャラクター固有の設定をカスタマイズ可能 LLMと音声合成による擬似的なインタラクション GitHub(ver2) / GitHub(ver1)
+sd-webui-chatgpt（Stable Diffusion Web UI用LLM（会話型AI）連携） 概要 Stable Diffusion web UIでOpenAI API（ChatGPT互換）やllama.cppを使って会話し、自然言語による画像生成を可能にする拡張機能です。「画像を生成して」などの簡単な指示でプロンプトを自動生成し、画像を作成できます。
+主な機能 自然言語での対話による画像生成指示 自動プロンプト生成 複数のAIバックエンド対応（OpenAI API、llama.cppなど） Stable Diffusion Web UIへの統合 技術的特徴 LLMとStable Diffusionの橋渡しとなるプロンプトエンジニアリング Web UI拡張としての実装 複数のAIモデル間連携アーキテクチャ GitHub リポジトリ">
   
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://non906.github.io/apple-touch-icon.png">
@@ -70,7 +71,7 @@ Windows(Oculus) Download Booth ">
 
   
   
-  <title>XRViewer | 無名のどこか</title>
+  <title>個人制作プロジェクト詳細 | 無名のどこか</title>
 </head>
 
   <body>
@@ -224,48 +225,98 @@ Windows(Oculus) Download Booth ">
         <div>
           
   <main id="main">
-    <h1>XRViewer</h1>
-    <h1 id="xrviewer">XRViewer</h1>
-<p>VR配信や動画配信が出来るアバター配信アプリケーション、およびそのビュワーアプリケーションです。<br>
-以下の機能が存在します。</p>
+    <h1>個人制作プロジェクト詳細</h1>
+    <h2 id="omniparser-autogui-mcp自動gui操作">omniparser-autogui-mcp（自動GUI操作）</h2>
+<h3 id="概要">概要</h3>
+<p>Microsoft OmniParserを活用してコンピュータ画面を解析し、GUIを自動で操作するためのModel Context Protocol (MCP) サーバーです。</p>
+<h3 id="主な機能">主な機能</h3>
 <ul>
-<li>VR空間で撮影し、それをRTMPでライブ配信（Youtube Liveなど）</li>
-<li>スマートフォンVR（Cardboardなど）やMeta Quest2で配信者のいるVR空間に入ることができる</li>
-<li>PCゲーム画面のウィンドウなど、配信者のデスクトップ画面をVR空間や動画で共有</li>
+<li>OmniParserによる画面の自動解析と要素の構造化</li>
+<li>AIシステムと連携したGUI自動操作</li>
+<li>複数の設定オプションでカスタマイズ可能（対象ウィンドウ指定、サーバー設定など）</li>
 </ul>
-<p>※現在テスト版です</p>
-<h2 id="ダウンロード">ダウンロード</h2>
-<p>※iOS/Android以外については、Meta Quest2でのみ動作確認</p>
-<p>視聴用</p>
+<h3 id="技術的特徴">技術的特徴</h3>
 <ul>
-<li>現在停止中</li>
+<li>Microsoft OmniParserとの連携による高度な画面認識能力</li>
+<li>MCP標準に準拠した実装で様々なAIシステムとの連携が可能</li>
 </ul>
-<!-- 
-- iOS
-  - TestFlight
-- Android
-  - [Google play(オープンテスト版)](https://play.google.com/store/apps/details?id=online.mumeigames.XRViewer2)
-- Meta Quest2 単体
-  - [Download(.apk)](https://github.com/NON906/NON906.github.io/releases/download/xrviewer_ver0.1/XRViewer_Quest_ver0.1.apk)
-  - [SideQuest](https://sidequestvr.com/app/11377/xrviewer)
-  - [Booth](https://mmig.booth.pm/items/4254856)
-- Windows(Oculus)
-  - [Download](https://github.com/NON906/NON906.github.io/releases/download/xrviewer_ver0.1/XRViewer_Oculus_ver0.1.zip)
-  - [SideQuest](https://sidequestvr.com/app/11377/xrviewer)
-  - [Booth](https://mmig.booth.pm/items/4254856)
-- Windows(OpenXR)
-  - [Download](https://github.com/NON906/NON906.github.io/releases/download/xrviewer_ver0.1/XRViewer_OpenXR_ver0.1.zip)
-  - [Booth](https://mmig.booth.pm/items/4254856)
--->
-<p>配信用</p>
+<p><a href="https://github.com/NON906/omniparser-autogui-mcp">GitHub リポジトリ</a></p>
+<h2 id="chara-searcherキャラクター画像検索ツール">chara-searcher（キャラクター画像検索ツール）</h2>
+<h3 id="概要-1">概要</h3>
+<p>画像やタグを使ってキャラクター画像の検索を行うための総合的なツールです。複数の画像や動画からキャラクターを自動で抽出し、背景を除去した上で検索可能なデータベースを構築します。</p>
+<h3 id="主な機能-1">主な機能</h3>
 <ul>
-<li>Windows(Oculus)
+<li>画像・動画からのキャラクター自動抽出（背景除去機能付き）</li>
+<li>類似画像検索とタグベース検索の両方に対応</li>
+<li>検索結果の一括エクスポート（Stable DiffusionのLora学習などに直接利用可能）</li>
+</ul>
+<h3 id="技術的特徴-1">技術的特徴</h3>
 <ul>
-<li><a href="https://github.com/NON906/NON906.github.io/releases/download/xrviewer_ver0.1/XRViewer_HostOculus_ver0.1.zip">Download</a></li>
-<li><a href="https://mmig.booth.pm/items/4254818">Booth</a></li>
+<li>タグベースと画像ベースの複合検索システム</li>
 </ul>
-</li>
+<p><a href="https://github.com/NON906/chara-searcher">GitHub リポジトリ</a></p>
+<h2 id="mascotgirlキャラクター会話システム">mascotgirl（キャラクター会話システム）</h2>
+<h3 id="概要-2">概要</h3>
+<p>好きなキャラクターと会話するためのプログラムです。キャラクターの立ち絵とボイスを組み合わせ、実際にそのキャラクターと会話しているような体験を提供します。</p>
+<h3 id="主な機能-2">主な機能</h3>
+<ul>
+<li>OpenAI APIを活用したキャラクターベースの会話生成</li>
+<li>Style-Bert-VITS2による高品質な音声合成</li>
+<li>talking-head-anime-3-demoによるリアルな口パク表現</li>
+<li>Windows PCとAndroidデバイスに対応</li>
 </ul>
+<h3 id="技術的特徴-2">技術的特徴</h3>
+<ul>
+<li>キャラクター固有の設定をカスタマイズ可能</li>
+<li>LLMと音声合成による擬似的なインタラクション</li>
+</ul>
+<p><a href="https://github.com/NON906/mascotgirl_ver2">GitHub(ver2)</a> / <a href="https://github.com/NON906/mascotgirl">GitHub(ver1)</a></p>
+<h2 id="sd-webui-chatgptstable-diffusion-web-ui用llm会話型ai連携">sd-webui-chatgpt（Stable Diffusion Web UI用LLM（会話型AI）連携）</h2>
+<h3 id="概要-3">概要</h3>
+<p>Stable Diffusion web UIでOpenAI API（ChatGPT互換）やllama.cppを使って会話し、自然言語による画像生成を可能にする拡張機能です。「画像を生成して」などの簡単な指示でプロンプトを自動生成し、画像を作成できます。</p>
+<h3 id="主な機能-3">主な機能</h3>
+<ul>
+<li>自然言語での対話による画像生成指示</li>
+<li>自動プロンプト生成</li>
+<li>複数のAIバックエンド対応（OpenAI API、llama.cppなど）</li>
+<li>Stable Diffusion Web UIへの統合</li>
+</ul>
+<h3 id="技術的特徴-3">技術的特徴</h3>
+<ul>
+<li>LLMとStable Diffusionの橋渡しとなるプロンプトエンジニアリング</li>
+<li>Web UI拡張としての実装</li>
+<li>複数のAIモデル間連携アーキテクチャ</li>
+</ul>
+<p><a href="https://github.com/NON906/sd-webui-chatgpt">GitHub リポジトリ</a></p>
+<h2 id="ffmpeg-for-unityunity用ffmpeg統合">FFmpeg for Unity（Unity用FFmpeg統合）</h2>
+<h3 id="概要-4">概要</h3>
+<p>UnityのエディタやアプリケーションでFFmpegを使用するためのアセットです。動画処理や音声処理などFFmpegの多様な機能をUnity環境で活用できます。</p>
+<h3 id="主な機能-4">主な機能</h3>
+<ul>
+<li>Unityプロジェクト内でのFFmpeg機能の活用</li>
+<li>クロスプラットフォーム対応</li>
+</ul>
+<h3 id="技術的特徴-4">技術的特徴</h3>
+<ul>
+<li>FFmpegライブラリのUnityへの統合</li>
+<li>様々なコーデックと形式のサポート</li>
+</ul>
+<p><a href="https://github.com/MUMEI-NON906/FfmpegUnityDocs/blob/main/README_JP.md">詳細ドキュメント</a></p>
+<h2 id="handmrmrvr向けハンドトラッキング">HandMR（MR/VR向けハンドトラッキング）</h2>
+<h3 id="概要-5">概要</h3>
+<p>MR/VR環境でのハンドトラッキングを実現するUnityアセットです。ARCore（Android）およびARKit（iOS）対応で、手の動きを認識して仮想オブジェクトとのインタラクションを可能にします。</p>
+<h3 id="主な機能-5">主な機能</h3>
+<ul>
+<li>カメラを使用したリアルタイムハンドトラッキング</li>
+<li>MR/VR環境でのハンドジェスチャー認識</li>
+<li>ARCoreおよびARKit対応のクロスプラットフォーム実装</li>
+</ul>
+<h3 id="技術的特徴-5">技術的特徴</h3>
+<ul>
+<li>MediaPipeを活用したハンドトラッキング</li>
+<li>OpenCVを活用した画像処理</li>
+</ul>
+<p><a href="https://github.com/NON906/HandMR">GitHub リポジトリ</a></p>
 
   </main>
 

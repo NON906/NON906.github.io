@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1024">
+  <title>私が作ってみたいゲーム構想</title>
+  <!-- Tailwind CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css" rel="stylesheet">
+  <!-- Google Fonts: Noto Sans JP for Japanese, Roboto for English parts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans JP', 'Roboto', sans-serif;
+      background: #f5f8fc;
+      color: #1a202c;
+    }
+    h1, h2, h3, h4 {
+      font-family: 'Noto Sans JP', 'Roboto', sans-serif;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    .icon {
+      color: #2a6db0;
+    }
+    /* For continuous page export: minimize vertical paddings, no forced page-breaks */
+    @media print {
+      body {
+        background: #fff !important;
+        color: #111 !important;
+      }
+      a[href]:after {
+        content: " (" attr(href) ")";
+      }
+    }
+  </style>
+</head>
+<body class="p-8 max-w-5xl mx-auto bg-white shadow-lg rounded-lg">
+  <!-- Title Section -->
+  <section class="text-center">
+    <h1 class="text-4xl md:text-5xl font-bold mb-2 tracking-wide text-blue-700">
+      <i class="fas fa-gamepad icon mr-2"></i>私が作ってみたいゲーム構想
+    </h1>
+    <span class="inline-block px-4 py-2 bg-blue-100 text-blue-800 rounded-full font-semibold tracking-wide text-md mt-6">ゲーム開発の新しい2つの構想</span>
+  </section>
+
+  <!-- Overview Section -->
+  <section class="mb-10">
+    <h2 class="text-2xl font-bold text-blue-600 mb-2">
+      <i class="fas fa-list-ul icon mr-2"></i>私が作ってみたい2つのアイデア
+    </h2>
+    <ul class="list-disc list-inside text-lg ml-4">
+      <li class="mb-1"><strong>AR（MR）ゴーグルを利用したカードゲーム</strong></li>
+      <li><strong>LLMを利用したシステムのあるゲーム</strong></li>
+    </ul>
+  </section>
+
+  <!-- AR Card Game Section -->
+  <section id="ar-card-game">
+    <h2 class="text-2xl font-bold text-green-700 mb-3 flex items-center">
+      <i class="fas fa-vr-cardboard icon mr-3"></i>AR（MR）ゴーグルを利用したカードゲーム
+    </h2>
+    
+    <!-- ARとは -->
+    <div class="mb-5">
+      <h3 class="text-xl font-semibold text-green-800 mb-1"><i class="fas fa-question-circle icon mr-1"></i>AR（拡張現実）とは</h3>
+      <p class="ml-4 text-gray-700">
+        <b>Augmented Reality</b>（拡張現実）の略。現実世界にデジタルなキャラクターや情報を重ねて表示する技術です。<br>
+        カードに印刷された特定のマーカーやパターンを識別することも多いです。<br>
+        <small class="text-gray-500">※ゴーグルを利用したり、ARとVRを複合したりした場合、「MR（Mixed Reality）」という呼称が用いられることもありますが、境目があいまいなため、本構想では特に区別しません。</small>
+      </p>
+    </div>
+    
+    <!-- ゴーグルとの相性 -->
+    <div class="mb-5">
+      <h3 class="text-xl font-semibold text-green-800 mb-1"><i class="fas fa-glasses icon mr-1"></i>ゴーグルとARカードゲームの融和性</h3>
+      <p class="ml-4 text-gray-700">
+        AR（MR）ゴーグルには広角カメラが搭載されているため、<span class="font-semibold text-green-900">プレイヤーが意識せず手元のカードを自然に認識</span>できます。<br>
+        没入感を損なわずに、リアルなカードを使った対戦や演出が可能です。
+      </p>
+    </div>
+
+    <!-- QRコード併用 -->
+    <div class="mb-5">
+      <h3 class="text-xl font-semibold text-green-800 mb-1"><i class="fas fa-qrcode icon mr-1"></i>QRコードとの併用</h3>
+      <ul class="ml-6 list-disc text-gray-700 mb-1">
+        <li>QRコードでカードの種類や位置を特定できます。</li>
+        <li>プレイマットにもQRコードを設置することで「どの場所に」「どのカードが」あるかトラッキング可能です。</li>
+        <li><span class="text-green-900 font-semibold">対面のカード対戦</span>も現実と仮想が連携して実現！</li>
+      </ul>
+    </div>
+    
+    <!-- まとめ -->
+    <div class="bg-green-50 p-4 rounded-lg">
+      <h4 class="text-lg font-semibold text-green-800 mb-1 flex items-center">
+        <i class="fas fa-lightbulb icon mr-2"></i>まとめ
+      </h4>
+      <ul class="list-disc list-inside ml-2 text-gray-800">
+        <li>AR/MRゴーグル技術の活用で、<b>これまでにないカードゲーム体験</b>を提供できる</li>
+        <li>新しいユーザー体験を創り出すゲーム技術に挑戦したい</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <hr class="my-10 border-blue-200">
+
+  <!-- LLM Game Section -->
+  <section id="llm-system-game">
+    <h2 class="text-2xl font-bold text-purple-700 mb-3 flex items-center">
+      <i class="fas fa-robot icon mr-3"></i>LLMを利用したシステムのあるゲーム
+    </h2>
+    
+    <!-- LLMとは -->
+    <div class="mb-5">
+      <h3 class="text-xl font-semibold text-purple-800 mb-1"><i class="fas fa-brain icon mr-1"></i>LLM（大規模言語モデル）とは</h3>
+      <p class="ml-4 text-gray-700">
+        <b>Large Language Model</b>（大規模言語モデル）の略。ChatGPTなどに代表される、文章生成を得意とするAIです。
+      </p>
+    </div>
+    
+    <!-- LLMの現状 -->
+    <div class="mb-5">
+      <h3 class="text-xl font-semibold text-purple-800 mb-1"><i class="fas fa-mobile-alt icon mr-1"></i>LLMの現状</h3>
+      <ul class="ml-6 list-disc text-gray-700">
+        <li>スマートフォンなどで動作する小型のLLMも登場しています。</li>
+        <li>メインゲーム以外にも、<strong class="text-purple-900">「おまけ」システム</strong>として柔軟に組み込めるのでは？</li>
+      </ul>
+    </div>
+
+    <!-- LLMを利用した会話システム -->
+    <div class="mb-5">
+      <h3 class="text-xl font-semibold text-purple-800 mb-1"><i class="fas fa-comments icon mr-1"></i>LLMを利用した会話システム</h3>
+      <p class="ml-4 text-gray-700">
+        LLMにキャラクターの「設定」「性格」「口調」など細かく指定すれば、<span class="font-semibold text-purple-900">そのキャラクターらしい返答</span>を生成可能です。
+      </p>
+    </div>
+
+    <!-- ゲームへの組込例 -->
+    <div class="mb-5">
+      <h3 class="text-xl font-semibold text-purple-800 mb-1"><i class="fas fa-gamepad icon mr-1"></i>ゲームにLLMを組み込むと？</h3>
+      <ul class="ml-6 list-disc text-gray-700">
+        <li>
+          <span class="font-semibold text-purple-900">プレイヤーの行動</span>や<span class="font-semibold text-purple-900">ゲーム結果</span>などを追加すれば、臨場感のある会話を展開できるのでは？
+        </li>
+        <li>そうであれば「キャラクターの会話」という新たなゲーム体験・価値を提供できると考えています。</li>
+      </ul>
+    </div>
+
+    <!-- ちなみに -->
+    <div class="mb-5">
+      <h3 class="text-xl font-semibold text-purple-800 mb-1"><i class="fas fa-rocket icon mr-1"></i>さらに将来的には？</h3>
+      <p class="ml-4 text-gray-700">
+        現状ではおまけ的な仕組みを考えていますが、技術発展で<br>
+        <span class="font-semibold text-purple-900">ストーリーやキャラクター設定の自動生成</span>も可能になるかも？
+      </p>
+    </div>
+    
+    <!-- まとめ -->
+    <div class="bg-purple-50 p-4 rounded-lg">
+      <h4 class="text-lg font-semibold text-purple-800 mb-1 flex items-center">
+        <i class="fas fa-lightbulb icon mr-2"></i>まとめ
+      </h4>
+      <ul class="list-disc list-inside ml-2 text-gray-800">
+        <li>LLMによってキャラクター会話という<b>新たな価値</b>をプレイヤーに届けたい</li>
+        <li>AI活用でゲームが一層<span class="font-semibold text-purple-900">インタラクティブ</span>に！</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Suggestions Section -->
+  <section class="mt-12 bg-blue-50 rounded-lg p-6">
+    <h3 class="text-xl font-bold text-blue-700 mb-2"><i class="fas fa-sparkles icon mr-2"></i>全体のまとめ</h3>
+    <ul class="list-disc list-inside text-gray-800">
+      <li>新しい技術を組み合わせることによる、全く新しい体験を提供したい</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="mt-16 text-center text-gray-400 text-sm">
+    <i class="fas fa-robot icon"></i> Powered by LLM assistant<br>
+    （この資料は https://www.genspark.ai/ で生成しています）
+  </footer>
+</body>
+</html>
+

@@ -4,23 +4,23 @@
     <title>無名のどこか</title>
     <link>https://non906.github.io/</link>
     <description>Recent content on 無名のどこか</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Wed, 16 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://non906.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://non906.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>個人制作プロジェクト詳細</title>
+      <link>https://non906.github.io/pr/</link>
+      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://non906.github.io/pr/</guid>
+      <description>&lt;h2 id=&#34;omniparser-autogui-mcp自動gui操作&#34;&gt;omniparser-autogui-mcp（自動GUI操作）&lt;/h2&gt;&#xA;&lt;h3 id=&#34;概要&#34;&gt;概要&lt;/h3&gt;&#xA;&lt;p&gt;Microsoft OmniParserを活用してコンピュータ画面を解析し、GUIを自動で操作するためのModel Context Protocol (MCP) サーバーです。&lt;/p&gt;&#xA;&lt;h3 id=&#34;主な機能&#34;&gt;主な機能&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;OmniParserによる画面の自動解析と要素の構造化&lt;/li&gt;&#xA;&lt;li&gt;AIシステムと連携したGUI自動操作&lt;/li&gt;&#xA;&lt;li&gt;複数の設定オプションでカスタマイズ可能（対象ウィンドウ指定、サーバー設定など）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;技術的特徴&#34;&gt;技術的特徴&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Microsoft OmniParserとの連携による高度な画面認識能力&lt;/li&gt;&#xA;&lt;li&gt;MCP標準に準拠した実装で様々なAIシステムとの連携が可能&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/NON906/omniparser-autogui-mcp&#34;&gt;GitHub リポジトリ&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;chara-searcherキャラクター画像検索ツール&#34;&gt;chara-searcher（キャラクター画像検索ツール）&lt;/h2&gt;&#xA;&lt;h3 id=&#34;概要-1&#34;&gt;概要&lt;/h3&gt;&#xA;&lt;p&gt;画像やタグを使ってキャラクター画像の検索を行うための総合的なツールです。複数の画像や動画からキャラクターを自動で抽出し、背景を除去した上で検索可能なデータベースを構築します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;主な機能-1&#34;&gt;主な機能&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;画像・動画からのキャラクター自動抽出（背景除去機能付き）&lt;/li&gt;&#xA;&lt;li&gt;類似画像検索とタグベース検索の両方に対応&lt;/li&gt;&#xA;&lt;li&gt;検索結果の一括エクスポート（Stable DiffusionのLora学習などに直接利用可能）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;技術的特徴-1&#34;&gt;技術的特徴&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;タグベースと画像ベースの複合検索システム&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/NON906/chara-searcher&#34;&gt;GitHub リポジトリ&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;mascotgirlキャラクター会話システム&#34;&gt;mascotgirl（キャラクター会話システム）&lt;/h2&gt;&#xA;&lt;h3 id=&#34;概要-2&#34;&gt;概要&lt;/h3&gt;&#xA;&lt;p&gt;好きなキャラクターと会話するためのプログラムです。キャラクターの立ち絵とボイスを組み合わせ、実際にそのキャラクターと会話しているような体験を提供します。&lt;/p&gt;&#xA;&lt;h3 id=&#34;主な機能-2&#34;&gt;主な機能&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;OpenAI APIを活用したキャラクターベースの会話生成&lt;/li&gt;&#xA;&lt;li&gt;Style-Bert-VITS2による高品質な音声合成&lt;/li&gt;&#xA;&lt;li&gt;talking-head-anime-3-demoによるリアルな口パク表現&lt;/li&gt;&#xA;&lt;li&gt;Windows PCとAndroidデバイスに対応&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;技術的特徴-2&#34;&gt;技術的特徴&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;キャラクター固有の設定をカスタマイズ可能&lt;/li&gt;&#xA;&lt;li&gt;LLMと音声合成による擬似的なインタラクション&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/NON906/mascotgirl_ver2&#34;&gt;GitHub(ver2)&lt;/a&gt; / &lt;a href=&#34;https://github.com/NON906/mascotgirl&#34;&gt;GitHub(ver1)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;sd-webui-chatgptstable-diffusion-web-ui用llm会話型ai連携&#34;&gt;sd-webui-chatgpt（Stable Diffusion Web UI用LLM（会話型AI）連携）&lt;/h2&gt;&#xA;&lt;h3 id=&#34;概要-3&#34;&gt;概要&lt;/h3&gt;&#xA;&lt;p&gt;Stable Diffusion web UIでOpenAI API（ChatGPT互換）やllama.cppを使って会話し、自然言語による画像生成を可能にする拡張機能です。「画像を生成して」などの簡単な指示でプロンプトを自動生成し、画像を作成できます。&lt;/p&gt;&#xA;&lt;h3 id=&#34;主な機能-3&#34;&gt;主な機能&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;自然言語での対話による画像生成指示&lt;/li&gt;&#xA;&lt;li&gt;自動プロンプト生成&lt;/li&gt;&#xA;&lt;li&gt;複数のAIバックエンド対応（OpenAI API、llama.cppなど）&lt;/li&gt;&#xA;&lt;li&gt;Stable Diffusion Web UIへの統合&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;技術的特徴-3&#34;&gt;技術的特徴&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;LLMとStable Diffusionの橋渡しとなるプロンプトエンジニアリング&lt;/li&gt;&#xA;&lt;li&gt;Web UI拡張としての実装&lt;/li&gt;&#xA;&lt;li&gt;複数のAIモデル間連携アーキテクチャ&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/NON906/sd-webui-chatgpt&#34;&gt;GitHub リポジトリ&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>XRViewer</title>
       <link>https://non906.github.io/xrviewer/</link>
       <pubDate>Wed, 16 Nov 2022 14:22:17 +0900</pubDate>
-      
       <guid>https://non906.github.io/xrviewer/</guid>
-      <description>XRViewer VR配信や動画配信が出来るアバター配信アプリケーション、およびそのビュワーアプリケーションです。
-以下の機能が存在します。
- VR空間で撮影し、それをRTMPでライブ配信（Youtube Liveなど） スマートフォンVR（Cardboardなど）やMeta Quest2で配信者のいるVR空間に入ることができる PCゲーム画面のウィンドウなど、配信者のデスクトップ画面をVR空間や動画で共有  ※現在テスト版です
-ダウンロード ※iOS/Android以外については、Meta Quest2でのみ動作確認
-視聴用
- 現在停止中  配信用
- Windows(Oculus)  Download Booth    </description>
+      <description>&lt;h1 id=&#34;xrviewer&#34;&gt;XRViewer&lt;/h1&gt;&#xA;&lt;p&gt;VR配信や動画配信が出来るアバター配信アプリケーション、およびそのビュワーアプリケーションです。&lt;br&gt;&#xA;以下の機能が存在します。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;VR空間で撮影し、それをRTMPでライブ配信（Youtube Liveなど）&lt;/li&gt;&#xA;&lt;li&gt;スマートフォンVR（Cardboardなど）やMeta Quest2で配信者のいるVR空間に入ることができる&lt;/li&gt;&#xA;&lt;li&gt;PCゲーム画面のウィンドウなど、配信者のデスクトップ画面をVR空間や動画で共有&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;※現在テスト版です&lt;/p&gt;&#xA;&lt;h2 id=&#34;ダウンロード&#34;&gt;ダウンロード&lt;/h2&gt;&#xA;&lt;p&gt;※iOS/Android以外については、Meta Quest2でのみ動作確認&lt;/p&gt;&#xA;&lt;p&gt;視聴用&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;現在停止中&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;!-- &#xD;&#xA;- iOS&#xD;&#xA;  - TestFlight&#xD;&#xA;- Android&#xD;&#xA;  - [Google play(オープンテスト版)](https://play.google.com/store/apps/details?id=online.mumeigames.XRViewer2)&#xD;&#xA;- Meta Quest2 単体&#xD;&#xA;  - [Download(.apk)](https://github.com/NON906/NON906.github.io/releases/download/xrviewer_ver0.1/XRViewer_Quest_ver0.1.apk)&#xD;&#xA;  - [SideQuest](https://sidequestvr.com/app/11377/xrviewer)&#xD;&#xA;  - [Booth](https://mmig.booth.pm/items/4254856)&#xD;&#xA;- Windows(Oculus)&#xD;&#xA;  - [Download](https://github.com/NON906/NON906.github.io/releases/download/xrviewer_ver0.1/XRViewer_Oculus_ver0.1.zip)&#xD;&#xA;  - [SideQuest](https://sidequestvr.com/app/11377/xrviewer)&#xD;&#xA;  - [Booth](https://mmig.booth.pm/items/4254856)&#xD;&#xA;- Windows(OpenXR)&#xD;&#xA;  - [Download](https://github.com/NON906/NON906.github.io/releases/download/xrviewer_ver0.1/XRViewer_OpenXR_ver0.1.zip)&#xD;&#xA;  - [Booth](https://mmig.booth.pm/items/4254856)&#xD;&#xA;--&gt;&#xD;&#xA;&lt;p&gt;配信用&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Windows(Oculus)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/NON906/NON906.github.io/releases/download/xrviewer_ver0.1/XRViewer_HostOculus_ver0.1.zip&#34;&gt;Download&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mmig.booth.pm/items/4254818&#34;&gt;Booth&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
   </channel>
 </rss>
