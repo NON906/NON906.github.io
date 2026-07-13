@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="複数種類のファイルを横断するマルチモーダル検索">
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#172a3a"/><stop offset="1" stop-color="#0d6b78"/></linearGradient></defs>
+  <rect width="800" height="450" fill="url(#g)"/>
+  <g fill="#f7f8fa">
+    <path d="M105 100h120l45 45v180H105z"/><path d="M290 100h120l45 45v180H290z"/><path d="M475 100h120l45 45v180H475z"/>
+  </g>
+  <g fill="#0d6b78" font-family="Arial, sans-serif" font-size="27" font-weight="700" text-anchor="middle">
+    <text x="187" y="225">TEXT</text><text x="372" y="225">IMAGE</text><text x="557" y="225">AUDIO</text>
+  </g>
+  <circle cx="650" cy="300" r="65" fill="none" stroke="#f29f67" stroke-width="18"/>
+  <path d="m696 346 58 58" stroke="#f29f67" stroke-width="22" stroke-linecap="round"/>
+  <text x="300" y="392" fill="#fff" font-family="Arial, sans-serif" font-size="34" font-weight="700" text-anchor="middle">Multimodal RAG × MCP</text>
+</svg>

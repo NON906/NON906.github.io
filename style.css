@@ -1,0 +1,84 @@
+:root {
+  --site-accent: #087f8c;
+  --site-accent-2: #f29f67;
+}
+
+body {
+  letter-spacing: 0.015em;
+}
+
+#hero h1 {
+  font-weight: 800;
+  letter-spacing: -0.035em;
+}
+
+#hero h2 {
+  color: var(--site-accent);
+  font-size: clamp(1.25rem, 3vw, 2rem);
+}
+
+#hero .image img {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  max-height: 360px;
+}
+
+#about strong {
+  color: var(--site-accent);
+}
+
+#projects .card {
+  overflow: hidden;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+#projects .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 1rem 2rem rgb(20 45 55 / 14%);
+}
+
+#projects .card-img-top {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: #13252d;
+}
+
+#projects .card-text {
+  line-height: 1.7;
+}
+
+#projects .badge {
+  margin: 0.12rem 0.08rem;
+}
+
+.experiment-date {
+  color: var(--site-accent);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.page-content > p:first-child a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.65rem 1rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media (max-width: 575.98px) {
+  #hero {
+    padding-top: 2rem !important;
+  }
+
+  #hero h1 {
+    font-size: clamp(2.4rem, 15vw, 4rem);
+  }
+
+  #projects .row {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}

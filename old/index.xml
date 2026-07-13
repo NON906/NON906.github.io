@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>昔のコンテンツ一覧 on 無名のどこか</title>
+		<link>http://localhost:1313/old/</link>
+		<description>Recent content in 昔のコンテンツ一覧 on 無名のどこか</description>
+		<generator>Hugo</generator>
+		<language>ja-JP</language>
+		
+		
+		
+		
+			<lastBuildDate></lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/old/index.xml" rel="self" type="application/rss+xml" />
+	</channel>
+</rss>

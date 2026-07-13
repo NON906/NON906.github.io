@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">異なる技術を接続するイメージ</title>
+  <desc id="desc">複数の技術を表す円が線で接続され、中央のプロトタイプへ集まっている図</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0d4350"/>
+      <stop offset="1" stop-color="#10232d"/>
+    </linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#65cbd0"/>
+      <stop offset="1" stop-color="#f29f67"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="640" rx="72" fill="url(#bg)"/>
+  <g fill="none" stroke="#65cbd0" stroke-width="8" stroke-linecap="round" opacity=".72">
+    <path d="M152 142 278 274M488 142 362 274M142 476 274 362M498 476 366 362"/>
+    <path d="M320 90v164M90 320h164M550 320H386M320 550V386" stroke-dasharray="14 18"/>
+  </g>
+  <g fill="#f7f8fa" stroke="#65cbd0" stroke-width="8">
+    <circle cx="126" cy="126" r="55"/><circle cx="514" cy="126" r="55"/>
+    <circle cx="126" cy="514" r="55"/><circle cx="514" cy="514" r="55"/>
+  </g>
+  <g fill="#0d4350" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">
+    <text x="126" y="135">XR</text><text x="514" y="135">AI</text>
+    <text x="126" y="523">映像</text><text x="514" y="523">MCP</text>
+  </g>
+  <circle cx="320" cy="320" r="108" fill="url(#core)"/>
+  <circle cx="320" cy="320" r="78" fill="#122b34"/>
+  <text x="320" y="310" fill="#fff" font-family="Arial, sans-serif" font-size="25" font-weight="700" text-anchor="middle">PROTOTYPE</text>
+  <text x="320" y="347" fill="#9ee7e9" font-family="Arial, sans-serif" font-size="20" text-anchor="middle">動く形へ</text>
+</svg>

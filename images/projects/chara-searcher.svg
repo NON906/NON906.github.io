@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="画像とタグによるキャラクター検索">
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#342044"/><stop offset="1" stop-color="#0b5961"/></linearGradient></defs>
+  <rect width="800" height="450" fill="url(#g)"/>
+  <g transform="translate(98 72)">
+    <rect width="400" height="300" rx="24" fill="#f7f8fa"/>
+    <circle cx="200" cy="118" r="65" fill="#f3b47f"/>
+    <path d="M92 272c22-73 67-110 108-110s86 37 108 110" fill="#65cbd0"/>
+    <path d="m138 90 32-50 20 56m72-6-32-50-20 56" fill="#7a538e"/>
+  </g>
+  <g fill="#f7f8fa" font-family="Arial, sans-serif" font-size="25" font-weight="700">
+    <rect x="545" y="118" width="168" height="54" rx="27" fill="#0c8591"/><text x="629" y="153" text-anchor="middle">IMAGE</text>
+    <rect x="545" y="198" width="168" height="54" rx="27" fill="#7a538e"/><text x="629" y="233" text-anchor="middle">TAGS</text>
+    <rect x="545" y="278" width="168" height="54" rx="27" fill="#d77d45"/><text x="629" y="313" text-anchor="middle">SEARCH</text>
+  </g>
+</svg>
